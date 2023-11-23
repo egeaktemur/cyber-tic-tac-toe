@@ -21,7 +21,7 @@ var tictacs = [
 
 var model;
 const load_model = async () => {
-    model = await tf.loadLayersModel("model.json");
+    model = await tf.loadLayersModel("cyber-tic-tac-toe/model.json");
     return model;
 };
 load_model();
