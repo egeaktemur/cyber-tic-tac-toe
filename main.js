@@ -4,7 +4,7 @@ function min(x, y) {
     }
     return y;
 }
-let unit = min(window.innerWidth, window.innerHeight) - 400;
+let unit = min(window.innerWidth, window.innerHeight) - 200;
 let lineWidth = unit / 25;
 let canvasUnit = unit / 3.1;
 let paintings = [];
